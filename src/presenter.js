@@ -10,5 +10,5 @@ form.addEventListener("submit", (event) => {
 
   const firstNumber = first.value;
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + contarPalabra(firstNumber) + "</p>";
 });
