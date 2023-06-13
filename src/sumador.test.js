@@ -1,7 +1,7 @@
-import sumar from "./sumador.js";
+import contarPalabra from "./sumador.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("Contar Palabra", () => {
+  it("Deberia devolverme la frase y la cantidad 1", () => {
+    expect(contarPalabra("bola")).toEqual("bola: 1");
   });
 });

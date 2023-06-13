@@ -8,8 +8,7 @@ const div = document.querySelector("#resultado-div");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const firstNumber = first.value;
 
   div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
 });
